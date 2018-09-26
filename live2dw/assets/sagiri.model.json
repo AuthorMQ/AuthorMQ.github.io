@@ -1,0 +1,35 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "moc/sagiri.moc",
+  "textures": [
+    "moc/sagiri.2048/texture_00.png",
+    "moc/sagiri.2048/texture_01.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "mtn/tap/c.mtn"
+      }
+    ],
+    "idle": [
+      {
+        "file": "mtn/idle/idle_01.mtn"
+      },
+      {
+        "file": "mtn/idle/idle_02.mtn"
+      },
+      {
+        "file": "mtn/idle/idle_03.mtn"
+      },
+      {
+        "file": "mtn/idle/idle_04.mtn"
+      }
+    ]
+  },
+  "physics": "physics.json"
+}
